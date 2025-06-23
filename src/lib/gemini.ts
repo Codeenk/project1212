@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyAFN9pOKBLHodW9aOMr1WzYJuAVXLeo4Hs');
-const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
+const genAI = new GoogleGenerativeAI('YOUR_GEMINI_API');
+const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
 function cleanResponse(text: string): string {
   return text
