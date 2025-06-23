@@ -35,7 +35,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Codeenk/project1212.git
    cd project1212-main
    ```
 
